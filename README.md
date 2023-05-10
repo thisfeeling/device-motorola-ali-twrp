@@ -1,6 +1,5 @@
-# Android device tree for motorola moto g(6) (ali)
+# Android device tree for motorola Moto G(6) 
 
-Unified device configuration for Moto G6 (Hannah)
 ==================================================
 
 The Motorola Moto G6 (codenamed _"ali"_) is a low-mid range smartphone from Motorola mobility.

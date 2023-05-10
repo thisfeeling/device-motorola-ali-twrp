@@ -1,4 +1,4 @@
-# Android device tree for motorola Moto G(6) 
+# Android TWRP Device tree for motorola Moto G(6) 
 
 ==================================================
 

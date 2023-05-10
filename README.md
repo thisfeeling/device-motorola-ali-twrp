@@ -7,22 +7,30 @@ The Motorola Moto G6 (codenamed _"ali"_) is a low-mid range smartphone from Moto
 Motorola Moto G(6) was announced and released in April 2018.
 
 ## Device specifications
+Copyright (C) 2020 The PixelExperience Project
 
-| Product Name | rhannah                                          | ahannah                                         | hannah_cricket, hannah_sprint, hannah_t         |
-| -----------: | :----------------------------------------------  | :---------------------------------------------- | :---------------------------------------------- |
-| SoC          | Qualcomm MSM8917 Snapdragon 425                  | Qualcomm MSM8937 Snapdragon 430                 | Qualcomm MSM8940 Snapdragon 435                 |
-| CPU          | Quad-core 1.4 GHz Cortex-A53                     | Octa-core (4x1.4 GHz Cortex-A53 & 4x 1.1 GHz Cortex-A53)  | Octa-core (4x1.4 GHz Cortex-A53 & 4x 1.1 GHz Cortex-A53)  |
-| GPU          | Adreno 308                                       | Adreno 505                                      | Adreno 505                                      |
-| Memory       | 2 GB RAM                                         | 3 GB RAM                                        | 3 GB RAM                                        |
-| Shipped Android version | 8.0                                   | 8.0                                             | 8.0                                             |
-| Storage      | 16 GB                                            | 32 GB                                           | 32 GB                                           |
-| Battery      | Non-removable Li-Ion 5000 mAh                    | Non-removable Li-Ion 5000 mAh                   | Non-removable Li-Ion 5000 mAh                   |
-| Display      | 720 x 1440 pixels, 18:9 ratio, 6.0 inches, IPS LCD (~268 ppi density)    | 720 x 1440 pixels, 18:9 ratio, 6.0 inches, IPS LCD (~268 ppi density)            | 720 x 1440 pixels, 18:9 ratio, 6.0 inches, IPS LCD (~268 ppi density)            |
-| Camera       | 12 MP, phase detection autofocus, LED flash      | 12 MP, phase detection autofocus, LED flash     | 12 MP, phase detection autofocus, LED flash     |
+The Motorola Moto G(6) (codenamed _"ali"_ ) is a mid-range phone from Motorola.
+
+Motorola Moto G(6) was announced and released in April 2018.
+
+## Device specifications
+
+| Device       | Motorola Moto G(6)
+| -----------: | :---------------------------------------------- 
+| SoC          | Qualcomm SDM450 Snapdragon 450 (14 nm)
+| CPU          | Octa-core 1.8 GHz Cortex-A53
+| GPU          | Adreno 506
+| Memory       | 3GB / 4GB RAM
+| Storage      | 32/64 eMMC 5.1 flash storage
+| Battery      | Non-removable Li-Po 3000 mAh
+| Dimensions   | 158.7 x 75.3 x 8.3 mm
+| Display      | 1080x2160 pixels, 5.7
+|Rear Camera   | 12 MP, f/1.8, 1/2.55", 1.4µm, PDAF
+|Front Camera  | 5 MP, f/2.2, (depth)
 
 ## Device picture
 
-![Motorola Moto E5+](https://www.tmonews.com/wp-content/uploads/2018/07/motoe5plustmobile-660x532.jpg "Moto E5+ in blue")
+![Motorola Moto G6](https://brmotorola.vteximg.com.br/arquivos/ids/159972-700-700/01-moto-g6-indigo.png "Motorola Moto G6")
 
 ```
 #

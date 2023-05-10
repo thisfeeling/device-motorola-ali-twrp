@@ -7,13 +7,6 @@ The Motorola Moto G6 (codenamed _"ali"_) is a low-mid range smartphone from Moto
 Motorola Moto G(6) was announced and released in April 2018.
 
 ## Device specifications
-Copyright (C) 2020 The PixelExperience Project
-
-The Motorola Moto G(6) (codenamed _"ali"_ ) is a mid-range phone from Motorola.
-
-Motorola Moto G(6) was announced and released in April 2018.
-
-## Device specifications
 
 | Device       | Motorola Moto G(6)
 | -----------: | :---------------------------------------------- 

@@ -1,13 +1,11 @@
 # Android device tree for motorola moto g(6) (ali)
 
-Copyright (C) 2019 The LineageOS Project
-
-Unified device configuration for Moto E5+ (Hannah)
+Unified device configuration for Moto G6 (Hannah)
 ==================================================
 
-The Motorola Moto E5+ (codenamed _"hannah"_) is a low-mid range smartphone from Motorola mobility.
+The Motorola Moto G6 (codenamed _"ali"_) is a low-mid range smartphone from Motorola mobility.
 
-It was announced in May 2018. Release date was July 2018.
+Motorola Moto G(6) was announced and released in April 2018.
 
 ## Device specifications
 

@@ -24,5 +24,3 @@ PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := ali
 PRODUCT_MODEL := moto g(6)
 PRODUCT_MANUFACTURER := motorola
-
-PRODUCT_GMS_CLIENTID_BASE := android-motorola

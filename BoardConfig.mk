@@ -21,7 +21,7 @@
 # definition file).
 #
 
-DEVICE_PATH := device/motorola/ali
+DEVICE_TREE := device/motorola/ali
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true

@@ -26,7 +26,3 @@ PRODUCT_MODEL := moto g(6)
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="ali_retail-user 9 PPSS29.55-37-7-10 c25e release-keys"
-    
-BUILD_FINGERPRINT := motorola/ali_retail/ali:9/PPSS29.55-37-7-10/c25e:user/release-keys

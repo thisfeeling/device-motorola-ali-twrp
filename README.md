@@ -24,7 +24,7 @@ Motorola Moto G(6) was announced and released in April 2018.
 ![Motorola Moto G6](https://brmotorola.vteximg.com.br/arquivos/ids/159972-700-700/01-moto-g6-indigo.png "Motorola Moto G6")
 
 
-## How To Build
+## Build
 
 
 ```bash

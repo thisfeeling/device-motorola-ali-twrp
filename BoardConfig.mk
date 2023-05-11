@@ -21,7 +21,7 @@
 # definition file).
 #
 
-DEVICE_TREE := device/motorola/ali
+DEVICE_PATH := device/motorola/ali
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
@@ -81,7 +81,7 @@ OARD_SYSTEMIMAGE_PARTITION_TYPE     := ext4
 TARGET_USES_MKE2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
-# TWRP
+# TWRP Configuration
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true

@@ -23,12 +23,22 @@ Motorola Moto G(6) was announced and released in April 2018.
 
 ![Motorola Moto G6](https://brmotorola.vteximg.com.br/arquivos/ids/159972-700-700/01-moto-g6-indigo.png "Motorola Moto G6")
 
+## How To Build
+
+
+```bash
+# Initialize stable branch
+$ mkdir <source-dir>
+$ cd <source-dir>
+$ git clone -b android-9.0 https://github.com/thisfeeling/device-motorola-ali-twrp device/motorola/ali
+$ . build/envsetup.sh
+$ lunch omni_ali-eng
+$ mka recoveryimage -j$(nproc -all)
 ```
 
-#
-# Copyright (C) 2023 The Android Open Source Project
-# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-```
+## Credits
+
+This software uses the following open source project(s):
+
+* [TWRP](https://github.com/brunorolak/device-motorola-ali-twrp)
+

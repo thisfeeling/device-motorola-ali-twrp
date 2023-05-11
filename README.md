@@ -31,7 +31,7 @@ Motorola Moto G(6) was announced and released in April 2018.
 $ mkdir <source-dir>
 $ cd <source-dir>
 # Initialize stable branch
-$ git clone -b twrp-9.0 https://github.com/thisfeeling/device-motorola-ali-twrp device/motorola/ali
+$ git clone -b android-9.0 https://github.com/thisfeeling/device-motorola-ali-twrp device/motorola/ali
 $ . build/envsetup.sh
 $ lunch omni_ali-eng
 $ mka recoveryimage -j$(nproc -all)

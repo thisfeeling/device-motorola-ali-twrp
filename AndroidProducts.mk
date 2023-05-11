@@ -23,9 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_ali.mk \
-	$(LOCAL_DIR)/full_ali.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_ali.mk
 
 COMMON_LUNCH_CHOICES := \
     omni_ali-user \

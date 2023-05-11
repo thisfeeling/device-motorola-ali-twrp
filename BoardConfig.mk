@@ -45,7 +45,7 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
-# Kernel - prebuilt
+# Prebuilts
 TARGET_PREBUILT_KERNEL := $(DEVICE_TREE)/prebuilt/Image.gz-dtb
 
 # Kernel
@@ -93,6 +93,3 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
-
-# For building with minimal manifest
-ALLOW_MISSING_DEPENDENCIES := true

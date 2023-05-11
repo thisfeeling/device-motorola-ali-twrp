@@ -28,5 +28,7 @@ PRODUCT_MAKEFILES := \
 	      $(LOCAL_DIR)/full_ali.mk
 	      
 COMMON_LUNCH_CHOICES := \
-    omni_ali-user \	      
+    omni_ali-user \
+    omni_ali-userdebug \
+    omni_ali-eng      
 	      

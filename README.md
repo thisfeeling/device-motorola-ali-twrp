@@ -1,4 +1,4 @@
-# Android TWRP Device tree for motorola Moto G6
+# Android TWRP Device Tree for Moto G6
 
 The Motorola Moto G(6) (codenamed _"ali"_ ) is a mid-range phone from Motorola.
 

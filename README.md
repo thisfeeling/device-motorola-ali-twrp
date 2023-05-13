@@ -43,5 +43,3 @@ $ mka recoveryimage -j$(nproc --all)
 This software uses the following open source project(s):
 
 * [TWRP Tree Generator](https://github.com/twrpdtgen/twrpdtgen)
-
-Copyright 2018 - The LineageOS Project.

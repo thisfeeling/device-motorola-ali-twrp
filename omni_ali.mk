@@ -16,9 +16,6 @@
 # Inherit from the common Open Source product configuration
 $(call inherit-product, build/target/product/embedded.mk)
 
-# Inherit from device
-$(call inherit-product, $(DEVICE_TREE)/Android.mk) 
-
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 

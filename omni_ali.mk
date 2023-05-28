@@ -16,11 +16,8 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from the common Open Source product configuration
-$(call inherit-product, build/target/product/embedded.mk)
-
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Properties for decryption
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -36,6 +33,3 @@ PRODUCT_DEVICE := ali
 PRODUCT_MODEL := Moto G(6)
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_GMS_CLIENTID_BASE := Android-Motorola
-
-# Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)/device.mk)

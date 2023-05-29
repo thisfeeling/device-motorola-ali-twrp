@@ -38,9 +38,3 @@ $ . build/envsetup.sh
 $ lunch omni_ali-eng
 $ mka recoveryimage -j$(nproc --all)
 ```
-
-## Credits
-
-This software uses the following open source project(s):
-
-* [TWRP Tree Generator](https://github.com/twrpdtgen/twrpdtgen)

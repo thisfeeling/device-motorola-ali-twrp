@@ -61,7 +61,7 @@ LZMA_RAMDISK_TARGETS := recovery
 
 ifeq ($(strip $(TARGET_PREBUILT_KERNEL)),)
 TARGET_KERNEL_CONFIG := ali_defconfig
-TARGET_KERNEL_SOURCE := kernel/motorola/sdm450
+TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 endif
 
 # Partitions

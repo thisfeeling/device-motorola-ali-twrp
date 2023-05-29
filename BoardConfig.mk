@@ -97,6 +97,9 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+TW_EXTRA_LANGUAGES := false
+TW_DEFAULT_LANGUAGE := en
+TW_EXCLUDE_TWRPAPP := true
 
 # Platform & Security patch level
 PLATFORM_VERSION := 16.1.0

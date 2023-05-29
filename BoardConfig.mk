@@ -89,6 +89,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 # TWRP Configuration
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
+#TARGET_HW_DISK_ENCRYPTION := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_FUSE_NTFS := true
@@ -100,7 +101,9 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_EXTRA_LANGUAGES := false
 TW_DEFAULT_LANGUAGE := en
 TW_EXCLUDE_TWRPAPP := true
-TW_NO_EXFAT_FUSE := true
+TW_EXCLUDE_SUPERSU := true
+TW_NO_LEGACY_PROPS := true
+#TW_INCLUDE_CRYPTO := true
 
 # Platform & Security patch level
 PLATFORM_VERSION := 16.1.0

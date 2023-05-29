@@ -100,6 +100,7 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_EXTRA_LANGUAGES := false
 TW_DEFAULT_LANGUAGE := en
 TW_EXCLUDE_TWRPAPP := true
+TW_NO_EXFAT_FUSE := true
 
 # Platform & Security patch level
 PLATFORM_VERSION := 16.1.0

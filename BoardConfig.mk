@@ -97,6 +97,7 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 VENDOR_SECURITY_PATCH := 2020-10-01
 PLATFORM_SECURITY_PATCH := 2020-10-01
 PLATFORM_VERSION := 16.1.0
+BOARD_SEPOLICY_VERS := 16.1.0
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true

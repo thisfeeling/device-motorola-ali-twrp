@@ -24,8 +24,8 @@
 # components.
 
 PRODUCT_MAKEFILES := \
-	      $(LOCAL_DIR)/omni_ali.mk \
-	      $(LOCAL_DIR)/full_ali.mk
+	      $(LOCAL_DIR)/omni_ali.mk 
+
 	      
 COMMON_LUNCH_CHOICES := \
     omni_ali-user \

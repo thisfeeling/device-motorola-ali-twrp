@@ -112,7 +112,10 @@ TW_DEFAULT_LANGUAGE := en
 PLATFORM_VERSION := 16.1.0
 PLATFORM_SECURITY_PATCH := 2030-01-01
 VENDOR_SECURITY_PATCH := 2099-12-31
-#BOARD_SEPOLICY_VERS := 16.1.0
+
+ifndef BOARD_SEPOLICY_VERS
+$(warning BOARD_SEPOLICY_VERS not specified, assuming current platform version)
+BOARD_SEPOLICY_VERS := current
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true

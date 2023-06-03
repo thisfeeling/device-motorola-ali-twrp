@@ -60,10 +60,8 @@ BOARD_RAMDISK_OFFSET     := 0x01000000
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 LZMA_RAMDISK_TARGETS := recovery
 
-ifeq ($(strip $(TARGET_PREBUILT_KERNEL)),)
-TARGET_KERNEL_CONFIG := ali_defconfig
-TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
-endif
+
+
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -90,13 +88,13 @@ RECOVERY_SDCARD_ON_DATA := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_FUSE_NTFS := true
-#TW_INCLUDE_NTFS_3G := true  
+TW_INCLUDE_NTFS_3G := true  
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
-#TW_MAX_BRIGHTNESS := 255
+
 TW_DEFAULT_BRIGHTNESS := 50   
 TW_EXTRA_LANGUAGES := true
 TW_DEFAULT_LANGUAGE := en
